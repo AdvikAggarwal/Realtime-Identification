@@ -1,0 +1,37 @@
+<html>
+<head>
+
+	<title>AI Video Surveillance</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.0.0/p5.js"></script>
+
+  <script src="https://unpkg.com/ml5@latest/dist/ml5.min.js"></script>
+  
+  <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+
+<body background="bg.jpg">
+<center>
+<h1 class="btn btn-danger heading">AI Surveillance</h1>
+<br>
+<br>
+<button onclick="start();" class="btn btn-success startbtn">Start</button>
+<br>
+<h1 id="status" class="btn btn-info" style="font-size: 50px;">Status: Yet to start</h1>
+<h1 id="found" class="btn btn-warning" style="font-size: 50px;"></h1>
+<br>
+<br>
+<br>
+<br>
+<input type="text" placeholder="Enter the name of the object that you want to detect" class="textinput" id="textinput">
+</center>
+<div class="footer">Developed by - Advik Aggarwal</div>
+<script src="main.js"></script>
+
+</body>
+
+</html>
